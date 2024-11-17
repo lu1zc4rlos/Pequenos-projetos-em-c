@@ -23,7 +23,7 @@ int main()
     }
     for (contador = 0; contador < a; contador++)
     {
-        printf("vetor[%d]\n", ponteiro[contador]);
+        printf("vetor[%d] = %d \n", contador ,ponteiro[contador]);
     }
     free(ponteiro);
     return 0;
