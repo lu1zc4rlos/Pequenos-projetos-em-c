@@ -5,7 +5,7 @@
 int **alocaMatriz(int a, int b)
 {
     int **aux = new int*[a];
-    
+
     for (int i = 0; i < a; i++)
     {
         aux[i] = new int[b];
@@ -48,10 +48,10 @@ int main()
 
     for (contador = 0; contador < a; contador++)
     {
-        delete(ponteiro[contador]);
+        delete[](ponteiro[contador]);
     }
 
-    delete(ponteiro);
+    delete[](ponteiro);
 
     return 0;
 }
